@@ -3,6 +3,13 @@ Contains single rule that warns about used warning comments and shows them as th
 
 This plugin contains stupidly copy-pasted **no-warning-comments** rule with one little modification: it shows warn comment as it is instead of showing meaningless warning "Unexpected 'todo' comment". (http://eslint.org/docs/rules/no-warning-comments)[Check out original documentation for no-warning-comments].
 
+```js
+// TODO: We may need to make this thing better
+// TODO: Function fooBar need to return something good
+// TODO: Wow!
+```
+![](screenshot.png)
+
 The plugin doesn't include any tests and it's created as quick and dirty solution for my internal needs.
 
 ## Install
