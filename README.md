@@ -1,4 +1,4 @@
-# eslint-plugin-output-todo-comments
+# eslint-plugin-output-todo-comments [![npm version](https://badge.fury.io/js/eslint-plugin-output-todo-comments.svg)](https://badge.fury.io/js/eslint-plugin-output-todo-comments)
 Contains single rule that warns about used warning comments and shows them as they are.
 
 This plugin contains stupidly copy-pasted **no-warning-comments** rule with one little modification: it shows warn comment as it is instead of showing meaningless warning "Unexpected 'todo' comment". [Check out original documentation for no-warning-comments](http://eslint.org/docs/rules/no-warning-comments).
