@@ -114,7 +114,7 @@ var ruleDef = {
             var matches = commentContainsWarningTerm(node.value);
 
             matches.forEach(function(matchedTerm) {
-                context.report(node, ellipsize(node.value.trim(), 45));
+                context.report(node, ellipsize(node.value.trim(), 60));
             });
         }
 
