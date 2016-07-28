@@ -6,6 +6,7 @@
 
 "use strict";
 
+var ellipsize = require('ellipsize');
 
 //------------------------------------------------------------------------------
 // Rule Definition
@@ -113,7 +114,7 @@ var ruleDef = {
             var matches = commentContainsWarningTerm(node.value);
 
             matches.forEach(function(matchedTerm) {
-                context.report(node, node.value.trim());
+                context.report(node, ellipsize(node.value.trim(), 45));
             });
         }
 
