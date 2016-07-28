@@ -9,7 +9,7 @@ This plugin contains stupidly copy-pasted **no-warning-comments** rule with one 
 // TODO: Wow!
 ```
 
-![](screenshot.png)
+![](http://imgur.com/a/ScUn0)
 
 The plugin doesn't include any tests and it's created as quick and dirty solution for my internal needs.
 
